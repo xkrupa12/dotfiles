@@ -29,3 +29,8 @@ ln -sf $DOTFILES/scripts/session-init $HOME/.local/bin/session-init
 # if [ ! -d "$HOME/.oh-my-zsh" ]; then
 #     KEEP_ZSHRC=yes sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # fi
+
+# Ghostty
+rm -rf $HOME/.config/ghostty
+ln -sf $DOTFILES/ghostty $HOME/.config/ghostty
+
